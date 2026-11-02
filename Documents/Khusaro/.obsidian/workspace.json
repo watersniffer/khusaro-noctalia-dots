@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "515846a333cf9c64",
+    "type": "split",
+    "children": [
+      {
+        "id": "110ee63a002c5b72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48b0a60e0913f0f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/home/water/dotfiles/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aeca6949ed7dcd15",
+    "type": "split",
+    "children": [
+      {
+        "id": "e49f90efa804a24a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3bb8e29dbf9e86c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "202c8da79223530e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0e156a7358f51bb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "2fbbf5cd09e5d56e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f54237db3c5e044",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f020bc8017b2c3a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "98e1e6362717fb02",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "dcbab03934e770cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b1d63fb24dd904d0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2f85121992ec4a5e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "card-board:CardBoard": false
+    }
+  },
+  "active": "48b0a60e0913f0f4",
+  "lastOpenFiles": [
+    "INSTALL.md",
+    "file:/home/water/Downloads/47664ee7-1dc6-4a28-b066-6f4b4491af3d_Export-7bff086f-57c4-46c7-bc7f-d87e75717dff/Export-7bff086f-57c4-46c7-bc7f-d87e75717dff/People d3d19035f2ca82dfb0d8014512d331ec.md",
+    "Excalidraw/Drawing 2026-10-26 16.31.11.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-25 06.48.03.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-25 22.09.04.excalidraw.md",
+    "Projects/HYPRLAND SETUP/vision.md",
+    "Saves/Pasted image 20261025065422.png",
+    "Saves",
+    "Excalidraw",
+    "Projects/HYPRLAND SETUP/Start.md",
+    "Daily Log/2026/10/24.md",
+    "Daily Log/2026/10",
+    "Daily Log/2026",
+    "Projects/HYPRLAND SETUP/Hyprland-wiki-notes.md",
+    "Projects/College/THOUGHTS.md",
+    "Projects/College",
+    "Projects/Untitled.md",
+    "Projects/HYPRLAND SETUP",
+    "Projects",
+    "Blueprint/Daily Log Blueprint.md",
+    "Blueprint",
+    "Daily Log",
+    "Welcome.md"
+  ]
+}
