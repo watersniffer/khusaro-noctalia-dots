@@ -1,0 +1,26 @@
+# Caches & state
+.cache/
+.local/share/
+.local/state/noctalia/clipboard/
+.local/state/noctalia/*history*
+*.log
+*.zwc
+*.zcompdump*
+
+# Secrets
+.npmrc
+.ssh/
+.gnupg/
+*.key
+*.pem
+
+# Large/binary
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mkv
+*.zip
+*.tar*
+node_modules/

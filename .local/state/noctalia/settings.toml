@@ -1,0 +1,220 @@
+config_version = 16
+
+[accessibility]
+ui_scale = 0.90000000596046448
+
+[bar.default]
+background_opacity = 0.79999998211860657
+border = "primary"
+capsule_fill = "primary_container"
+capsule_opacity = 0.87999998033046722
+capsule_padding = 4.0
+capsule_radius = 0
+capsule_thickness = 0.85999998450279236
+center = [ "media", "control-center" ]
+concave_edge_corners = false
+end = [ "tray", "group:g1", "clock", "notifications", "widget", "session" ]
+font_family = "Iosevka"
+font_scale = 0.89999998733401299
+margin_edge = 1
+margin_ends = 2
+margin_opposite_edge = 1
+padding = 6
+radius = 0
+scale = 0.95000000670552254
+start = [ "group:g2", "widget_2" ]
+thickness = 22
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    border_width = 1.0
+    enabled = true
+    fill = "shadow"
+    id = "g1"
+    members = [ "volume", "brightness", "battery" ]
+    opacity = 0.94999998807907104
+    padding = 7.0
+    radius = 0.0
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    border_width = 1.5
+    enabled = true
+    fill = "shadow"
+    id = "g2"
+    members = [ "launcher", "workspaces" ]
+    opacity = 0.87999999523162842
+    padding = 4.0
+    radius = 0.0
+
+[control_center]
+hidden_tabs = [ "monitor", "power", "weather", "calendar" ]
+width = 750
+
+    [[control_center.shortcuts]]
+    type = "caffeine"
+
+    [[control_center.shortcuts]]
+    type = "nightlight"
+
+    [[control_center.shortcuts]]
+    type = "notification"
+
+    [[control_center.shortcuts]]
+    type = "power_profile"
+
+    [[control_center.shortcuts]]
+    type = "noctalia/wallhaven:shortcut"
+
+    [[control_center.shortcuts]]
+    type = "levi/warp:toggle"
+
+[desktop_widgets]
+enabled = false
+
+[dock]
+background_opacity = 0.64999998547136784
+icon_size = 25
+radius = 7
+reserve_space = false
+smart_auto_hide = true
+
+[location]
+auto_locate = true
+
+[lockscreen]
+fingerprint = false
+transition = [ "honeycomb", "pixel" ]
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [ "lockscreen-login-box@eDP-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 683.0
+    cy = 586.0
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[osd]
+background_opacity = 0.78999998234212399
+hide_delay_ms = 1000
+
+    [osd.kinds]
+    media = false
+
+[plugin_settings."ishan0121/wallpaper-deck"]
+extra_wallpaper_dir = "~/Images/WallHaven"
+wallhaven_api_key = "NAbCVZY5XQaOqDRXjCrEd78vVWArawDA"
+wallhaven_cache_limit_mb = 299
+wallpaper_dir = "/home/water/Images/wall"
+
+[plugin_settings."noctalia/wallhaven"]
+api_key = "NAbCVZY5XQaOqDRXjCrEd78vVWArawDA"
+download_dir = "/home/water/Images/wall"
+
+[plugins]
+enabled = [ "noctalia/wallhaven", "levi/warp", "yuuto/arch-updater", "thepunkoff/pomodoro" ]
+
+[shell]
+avatar_path = "/home/water/Images/profile.jpg"
+corner_radius_scale = 0.0
+font_family = "Iosevka"
+polkit_agent = true
+screen_time_enabled = true
+settings_window_translucent = true
+
+    [shell.greeter_sync]
+    auto_sync = true
+
+    [shell.launcher]
+    compact = true
+    layout = "simple"
+    show_app_actions = true
+
+    [shell.panel]
+    control_center_position = "center"
+    launcher_placement = "attached"
+    open_near_click_control_center = true
+    session_position = "center"
+
+[theme]
+builtin = "Kanagawa"
+mode = "dark"
+pure_black_dark = true
+source = "wallpaper"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "hyprland", "kitty", "qt" ]
+    community_ids = [ "brave", "pywalfox", "lazyvim", "neovim" ]
+
+[wallpaper]
+directory = "/home/water/Images/wall"
+transition = [ "honeycomb" ]
+transition_on_startup = true
+
+    [wallpaper.default]
+    path = "/home/water/Images/wall/wallhaven-rdwjj7.jpg"
+
+    [wallpaper.last]
+    path = "/home/water/Images/wall/wallhaven-rdwjj7.jpg"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/water/Images/wall/wallhaven-rdwjj7.jpg"
+
+[widget.clock]
+format = "{:%I:%M %p}"
+
+[widget.launcher]
+custom_image = "/home/water/Images/icons8-arch-linux-48.png"
+custom_image_colorize = true
+glyph = "navigation-search"
+
+[widget.media]
+art_size = 25
+show_progress = true
+
+[widget.notifications]
+hide_when_no_unread = true
+
+[widget.widget]
+type = "yuuto/arch-updater:widget"
+
+[widget.widget_2]
+type = "thepunkoff/pomodoro:widget"
+
+[widget.workspaces]
+active_pill_size = 2.3500000000000001
+font_family = "Iosevka"
+pill_scale = 0.84999999999999998

@@ -1,0 +1,6 @@
+[security_migrations]
+calendar_credentials_v1 = true
+
+[theme_templates]
+applied_builtin_ids = "btop cava gtk3 gtk4 hyprland kitty qt"
+applied_community_ids = "brave lazyvim neovim pywalfox"
